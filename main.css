@@ -1,0 +1,65 @@
+
+/*Body*/
+
+body {
+	height: 100%;
+	font-family: 'Open Sans';
+	margin: 0px;
+	padding: 0px;
+
+	background-color: #f0c579;
+
+	background-image:url("/media/webImages/backgrounds/bg1.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+
+	color: white;
+
+	cursor: url('/media/webImages/cursor.png'), auto;
+}
+
+/*Headers*/
+
+/*One-Time Displays*/
+
+.logo {
+	text-align: center;
+	filter: drop-shadow(9px 1px 1px #000000);
+	margin-top: 2em;
+}
+
+.ip {
+	display: block;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+	font-weight: bold;
+	height: 100%;
+}
+
+.iplink {
+	color: white;
+	text-align: center;
+    text-decoration: none;
+	font-size: 24px;
+}
+
+.socialicons {
+	text-align: center;
+}
+
+.socialicons img {
+	height: 3em;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	filter: invert(100%);
+}
+
+.center {
+	text-align: center;
+}
