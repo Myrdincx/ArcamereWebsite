@@ -29,7 +29,6 @@ body {
 #header {
 	display: flex;
 	flex-direction: column;
-	/* 👈 forces IP under logo */
 	align-items: center;
 	gap: 1rem;
 	width: 100%;
